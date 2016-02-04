@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mdb:war exploded">
+    <output-path>$PROJECT_DIR$/target/mdb</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mdb" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/mdb/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mdb/web/Web" />
+    </root>
+  </artifact>
+</component>
